@@ -1,0 +1,135 @@
+@media screen {
+  
+
+/* Global body settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Heading animation */
+  h3 {
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: fadeInUp 1s forwards;
+  }
+  
+  /* Animating the question text */
+  p {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1.2s forwards;
+  }
+  
+  /* Animating h4 */
+  h4 {
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: fadeInLeft 1.5s forwards;
+  }
+  .red {
+    opacity: 0;
+    padding: 10px;
+    background-color: #0df8e861;
+    transform: translateX(-30px);
+    animation: fadeInLeft 1.5s forwards;
+    border: rgb(227, 8, 0);
+    border-radius: 8px;
+    height: auto;
+  }
+  /* Textarea animations */
+  textarea {
+    opacity: 0;
+    transform: scale(0.9);
+    animation: fadeInUp 2s forwards;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    font-size: 1em;
+  }
+  
+  /* Input button animation */
+  input[type="submit"] {
+    opacity: 0;
+    transform: scale(0.8);
+    animation: fadeInUp 2.5s forwards;
+    padding: 12px 30px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for the submit button */
+  input[type="submit"]:hover {
+    transform: scale(1.1);
+    background-color: #2980b9;
+  }
+  
+  /* Keyframe for fadeInUp animation */
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Keyframe for fadeInLeft animation */
+  @keyframes fadeInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  #a {
+    opacity: 0;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    transform: scale(0.8);
+    animation: fadeInUp 2.5s forwards;
+    padding: 12px 30px;
+    border: none;
+    background-color: #22f7b0;
+    color: black(186, 50, 240);
+    font-size: 1.1em;
+    border-radius:50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    
+  }
+  
+  /* Hover effect for the submit button */
+  #a :hover {
+    transform: scale(1.1);
+    background-color: #000000;
+    text-decoration: none
+  }
+  
+  /* Keyframe for fadeInUp animation */
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Keyframe for fadeInLeft animation */
+  @keyframes fadeInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+      
+    }
+  }
+}
